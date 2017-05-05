@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "Telefonkonyv"
+    </assembly>
+    <members>
+        <member name="M:Lista.Dispose">
+            <summary>
+Ez itt a Lista osztály
+Finalizes an instance of the <see cref="T:Lista" /> class.
+</summary>
+        </member>
+        <member name="T:String">
+            <summary>
+ * Ez az osztály <see cref="T:String" />
+ * 
+ *</summary>
+        </member>
+        <!-- Discarding badly formed XML document comment for member 'M:String.op_Subscript(System.UInt32)'. -->
+    </members>
+</doc>
