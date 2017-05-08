@@ -82,9 +82,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;LOCAL_TEST</PreprocessorDefinitions>
       <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -106,6 +110,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -116,6 +121,7 @@
     <ClInclude Include="Contact.h" />
     <ClInclude Include="Jatek.h" />
     <ClInclude Include="lista.h" />
+    <ClInclude Include="memtrace.h" />
     <ClInclude Include="Sajat_string.h" />
     <ClInclude Include="Telefonszam.h" />
   </ItemGroup>
@@ -124,6 +130,8 @@
     <ClCompile Include="Contact_proba.cpp" />
     <ClCompile Include="Jatek.cpp" />
     <ClCompile Include="lista.cpp" />
+    <ClCompile Include="lista_proba.cpp" />
+    <ClCompile Include="memtrace.cpp" />
     <ClCompile Include="Sajat_string.cpp" />
     <ClCompile Include="Sajat_string_proba.cpp" />
     <ClCompile Include="Source.cpp" />

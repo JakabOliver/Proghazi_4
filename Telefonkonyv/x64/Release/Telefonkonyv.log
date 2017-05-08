@@ -1,0 +1,23 @@
+﻿  Contact.cpp
+  Contact_proba.cpp
+  Jatek.cpp
+  lista.cpp
+  memtrace.cpp
+memtrace.cpp(389): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+memtrace.cpp(390): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  Sajat_string.cpp
+Sajat_string.cpp(15): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Sajat_string_proba.cpp
+  Source.cpp
+  Telefonszam.cpp
+Telefonszam.cpp(26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+Telefonszam.cpp(30): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+Telefonszam.cpp(34): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+Telefonszam.cpp(42): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+Telefonszam.cpp(47): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+Telefonszam.cpp(51): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  telefonszam_proba.cpp
+  Generating code
+  All 280 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Telefonkonyv.vcxproj -> D:\Documents\GitHub\Proghazi_4\x64\Release\Telefonkonyv.exe
