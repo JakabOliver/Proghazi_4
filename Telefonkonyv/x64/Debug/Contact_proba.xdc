@@ -7,9 +7,5 @@
  *</summary>
 
 </member>
-<member name="T:Contact" decl="false" source="d:\documents\github\proghazi_4\telefonkonyv\contact.h" line="10">
-
-
-</member>
 </members>
 </doc>

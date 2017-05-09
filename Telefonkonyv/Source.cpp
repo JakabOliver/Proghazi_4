@@ -19,15 +19,14 @@
 
 int main(void)
 {
-	setbuf(stdout, 0);
+	setbuf(stdin, 0);
 	setlocale(LC_ALL, "");
 	Jatek telefonkonyv("1. összes kapcsolat kilistázása\n2. Kapcsolatok egyesével\n9. kilépés\n");
 	try
 	{
-		std::cout << "Itt nyitjuk meg a listát" << std::endl;
-		std::fstream infile;
-		infile.open("Lista.txt");
-		telefonkonyv.lista.read(infile);
+		std::ifstream infile("Lista.txt");
+		Lista *ref = &telefonkonyv.lista;
+		ref->read(infile);
 	}
 	catch(...)
 	{/*Nem létezik a Lista.txt*/ }

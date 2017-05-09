@@ -32,12 +32,12 @@ void Jatek::menu(void)
 	int c = ch - '0';
 	switch (c)
 	{
-	case 1:	lista.listaz();	system("cls");break;						//az összes kiírása egymás alá
+	case 1:	lista.listaz();	system("PAUSE"); break;						//az összes kiírása egymás alá
 	case 2: vegigjar(); break;					//az ún. keresés, itt lehet törölni vagy módosítani is egy adott kapcsolatot.
 	case 3: kapcsolatotbetolt(lista); break;	//secret feature a felhasználónak nem mondjuk meg, hogy van ilyen, de ha baj történne a beolvasással, akkor ez könnyen használható teszt adatokhoz
 	case 9: //A kilépés
 		isRunning = false;	
-		std::fstream outfile("Lista.txt");
+		std::ofstream outfile("Lista.txt");
 		lista.write(outfile);
 		break;
 	}
